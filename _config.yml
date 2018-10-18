@@ -3,8 +3,8 @@ author: "Liquan Chai"
 description: "Personal blog for my PhD journey"
 more: "read more »"
 url: "https://liquanchai.github.io/"
-baseurl: "/"
-paginate: 2
+baseurl: "/index"
+paginate: 5
 permalink: pretty
 excerpt_separator: "\n\n\n" # two blank lines
 
