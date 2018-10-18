@@ -3,8 +3,8 @@ author: "Liquan Chai"
 description: "Personal blog for my PhD journey"
 more: "read more »"
 url: "https://liquanchai.github.io/"
-baseurl: ""
-paginate: 7
+baseurl: "/"
+paginate: 2
 permalink: pretty
 excerpt_separator: "\n\n\n" # two blank lines
 
@@ -18,7 +18,7 @@ navigation:
   - about.md
 
 comments:
-  disqus: "disqus-contrast"
+#  disqus: "disqus-contrast"
 #  isso: "comments.mysite.org"
 
 links: # see http://fontawesome.io/icons/#brand for all possible icons
