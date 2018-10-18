@@ -1,0 +1,31 @@
+title: "HCI research hub"
+author: "Liquan Chai"
+description: "Personal blog for my PhD journey"
+more: "read more »"
+url: "https://liquanchai.github.io/"
+baseurl: ""
+paginate: 2
+permalink: pretty
+excerpt_separator: "\n\n\n" # two blank lines
+
+style:
+  minimalist: false
+  dark: false
+
+navigation:
+  - index.html
+  - archive.html
+  - about.md
+
+comments:
+  disqus: "disqus-contrast"
+#  isso: "comments.mysite.org"
+
+links: # see http://fontawesome.io/icons/#brand for all possible icons
+  - twitter: "https://twitter.com/twitter/"
+  - github: "https://github.com/LiquanChai"
+  - envelope: "mailto:Liquan.Chai@ed.ac.uk"
+
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+sass: {style: expanded}
+plugins: [jekyll-feed, jekyll-paginate]
