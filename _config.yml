@@ -4,7 +4,7 @@ description: "Personal blog for my PhD journey"
 more: "read more »"
 url: "https://liquanchai.github.io/"
 baseurl: ""
-paginate: 2
+paginate: 7
 permalink: pretty
 excerpt_separator: "\n\n\n" # two blank lines
 
