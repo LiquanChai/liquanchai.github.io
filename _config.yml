@@ -3,8 +3,8 @@ author: "Liquan Chai"
 description: "Personal blog for my PhD journey"
 more: "read more »"
 url: "https://liquanchai.github.io/"
-baseurl: "/contrast"
-paginate: 2
+baseurl: ""
+paginate: 5
 permalink: pretty
 excerpt_separator: "\n\n\n" # two blank lines
 
@@ -24,7 +24,7 @@ comments:
 links: # see http://fontawesome.io/icons/#brand for all possible icons
   - twitter: "https://twitter.com/twitter/"
   - github: "https://github.com/LiquanChai"
-  - envelope: "mailto:Liquan.Chai@ed.ac.uk"
+  - envelope: ""
 
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
 sass: {style: expanded}
